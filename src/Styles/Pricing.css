@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#Pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    justify-content: center;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.button-Container{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#submit{
+    width: 30%;
+
+}
