@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html{
-    font-family: 'Roboto', sans-serif;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -11,11 +7,14 @@ input::-webkit-inner-spin-button {
 }
 
 #Pricing{
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100vw;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #calculator{
@@ -43,5 +42,20 @@ input::-webkit-inner-spin-button {
 
 #submit{
     width: 30%;
+    font-family: 'Roboto', sans-serif;
+}
 
+input:hover{
+    background-color: lightgrey;
+}
+
+.outputs {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+
+.text {
+    border-top: 1px solid red;
 }
