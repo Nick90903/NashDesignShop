@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Pricing.css"
+import RenderHeader from "./Header";
 function LoadPricing() {
 
     const [weight, setWeight] = useState(0);
@@ -40,6 +41,11 @@ function LoadPricing() {
                 <div id="final">${calculateCost().toFixed(2)}</div>
             </div>
             <div className="content">
+                <div className="disclaimer text">
+                    There is a base cost of $1.67 to get the part sliced, cleaned 
+                    up and on the printer. This cost covers the time to start the 
+                    print. 
+                </div>
                 <div className="information text">
                     If you know the weight of your part and the time it would
                     take to print you can use the calculator above to get an 

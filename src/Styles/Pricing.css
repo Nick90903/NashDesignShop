@@ -13,8 +13,9 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+    margin-top: 25px;
 }
 
 #calculator{
@@ -58,4 +59,7 @@ input:hover{
 
 .text {
     border-top: 1px solid red;
+    width: 450px;
+    text-align: left;
+
 }
